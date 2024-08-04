@@ -1,0 +1,64 @@
+/* Light mode styles (default) */
+.icon {
+  transform: translate(0, 5px);
+  margin-left: 8px;
+}
+
+.wall {
+  width: 20px;
+  height: 20px;
+  background-color: rgb(71, 12, 12); /* Dark Red */
+  outline: 1px solid rgb(61, 57, 57); /* Dark Gray */
+}
+
+.visited {
+  width: 20px;
+  height: 20px;
+  background-color: rgb(220, 220, 33); /* Light Pink */
+  outline: 1px solid rgb(61, 57, 57); /* Dark Gray */
+}
+
+.nonvisited {
+  width: 20px;
+  height: 20px;
+  background-color: rgb(200, 200, 200); /* Light Gray */
+  outline: 1px solid rgb(175, 216, 248); /* Light Blue */
+}
+
+.path {
+  width: 20px;
+  height: 20px;
+  background-color: rgb(100, 200, 100); /* Light Green */
+  outline: 1px solid rgb(61, 57, 57); /* Dark Gray */
+}
+
+.block {
+  transform: translate(0, 5px);
+  margin-left: 10px;
+}
+
+.box {
+  display: inline-block;
+  transform: translate(0, 3px);
+}
+
+/* Dark mode styles */
+.navbar-dark .wall {
+  background-color: rgb(71, 12, 12); /* Dark Red */
+  outline: 1px solid rgb(61, 57, 57); /* Dark Gray */
+}
+
+.navbar-dark .visited {
+  background-color: rgb(220, 220, 33); /* Light Pink */
+  outline: 1px solid rgb(90, 84, 84); /* Lighter Gray */
+}
+
+.navbar-dark .nonvisited {
+  background-color: rgb(100, 100, 100); /* Dark Gray */
+  outline: 1px solid rgb(175, 216, 248); /* Light Blue */
+}
+
+.navbar-dark .path {
+  background-color: rgb(100, 200, 100); /* Light Green */
+  outline: 1px solid rgb(90, 84, 84); /* Lighter Gray */
+}
